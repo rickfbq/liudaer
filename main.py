@@ -51,15 +51,15 @@ def get_weather(region):
         # 获取地区的location--id
         location_id = response["location"][0]["id"]
     weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(location_id, key)
-    weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(location_id, key)
+    # weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(location_id, key)
     response1 = get(weather_url1, headers=headers).json()
-    response2 = get(weather_url2, headers=headers).json()
+    # response2 = get(weather_url2, headers=headers).json()
     # 天气
     weather = response1["now"]["text"]
     # 当前温度
     temp = response1["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
-    tempMax = response1["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
-    tempMin = response1["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
+    # tempMax = response1["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
+    # tempMin = response1["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
     # 风向
     wind_dir = response1["now"]["windDir"]
     return weather, temp, wind_dir
@@ -163,14 +163,6 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
             },
             "wind_dir": {
                 "value": wind_dir,
-                "color": get_color()
-            },
-            "tempMax": {
-                "value": tempMax,
-                "color": get_color()
-            },
-            "tempMin": {
-                "value": tempMin,
                 "color": get_color()
             },
             "love_day": {
