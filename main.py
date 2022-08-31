@@ -37,7 +37,25 @@ def get_weather(region):
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     key = config["weather_key"]
-    region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(region, key)
+    # 获取liudaer的地理位置
+    liu_region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(liu_region, key)
+    liu_response = get(liu_region_url, headers=headers).json()
+    if liu_response["code"] == "404":
+        print("推送消息失败，请检查地区名是否有误！")
+        os.system("pause")
+        sys.exit(1)
+    elif liu_response["code"] == "401":
+        print("推送消息失败，请检查和风天气key是否正确！")
+        os.system("pause")
+        sys.exit(1)
+    else:
+        # 获取地区的location--id
+        liu_location_id = liu_response["location"][0]["id"]
+    liu_weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(liu_location_id, key)
+    liu_weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(liu_location_id, key)
+    
+    # 获取fengdadie的地理位置
+    region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(feng_region, key)
     response = get(region_url, headers=headers).json()
     if response["code"] == "404":
         print("推送消息失败，请检查地区名是否有误！")
@@ -49,11 +67,12 @@ def get_weather(region):
         sys.exit(1)
     else:
         # 获取地区的location--id
-        location_id = response["location"][0]["id"]
-    weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(location_id, key)
-    weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(location_id, key)
-    response1 = get(weather_url1, headers=headers).json()
-    response2 = get(weather_url2, headers=headers).json()
+        liu_location_id = response["location"][0]["id"]
+    feng_location_id = response["location"][0]["id"]
+    feng_weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(feng_location_id, key)
+    feng_weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(feng_location_id, key)
+    response1 = get(liu_weather_url1, headers=headers).json()
+    response2 = get(liu_weather_url2, headers=headers).json()
     # 天气
     weather = response1["now"]["text"]
     # 当前温度
