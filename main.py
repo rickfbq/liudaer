@@ -31,31 +31,14 @@ def get_access_token():
     return access_token
  
  
-def get_weather(region):
+def get_weather(liu_region):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     key = config["weather_key"]
     # 获取liudaer的地理位置
-    liu_region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(liu_region, key)
-    liu_response = get(liu_region_url, headers=headers).json()
-    if liu_response["code"] == "404":
-        print("推送消息失败，请检查地区名是否有误！")
-        os.system("pause")
-        sys.exit(1)
-    elif liu_response["code"] == "401":
-        print("推送消息失败，请检查和风天气key是否正确！")
-        os.system("pause")
-        sys.exit(1)
-    else:
-        # 获取地区的location--id
-        liu_location_id = liu_response["location"][0]["id"]
-    liu_weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(liu_location_id, key)
-    liu_weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(liu_location_id, key)
-    
-    # 获取fengdadie的地理位置
-    region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(feng_region, key)
+    region_url = "https://geoapi.qweather.com/v2/city/lookup?location={}&key={}".format(region, key)
     response = get(region_url, headers=headers).json()
     if response["code"] == "404":
         print("推送消息失败，请检查地区名是否有误！")
@@ -67,12 +50,12 @@ def get_weather(region):
         sys.exit(1)
     else:
         # 获取地区的location--id
-        liu_location_id = response["location"][0]["id"]
-    feng_location_id = response["location"][0]["id"]
-    feng_weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(feng_location_id, key)
-    feng_weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(feng_location_id, key)
-    response1 = get(liu_weather_url1, headers=headers).json()
-    response2 = get(liu_weather_url2, headers=headers).json()
+        location_id = response["location"][0]["id"]
+    weather_url1 = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(location_id, key)
+    weather_url2 = "https://devapi.qweather.com/v7/weather/3d?location={}&key={}".format(location_id, key)
+    
+    response1 = get(weather_url1, headers=headers).json()
+    response2 = get(weather_url2, headers=headers).json()
     # 天气
     weather = response1["now"]["text"]
     # 当前温度
@@ -138,7 +121,7 @@ def get_ciba():
     return note_ch, note_en
  
  
-def send_message(to_user, access_token, region_name, weather, temp, wind_dir, tempMax, tempMin, note_ch, note_en):
+def send_message(to_user, access_token, liu_region_name, weather, temp, wind_dir, tempMax, tempMin, note_ch, note_en):
     url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}".format(access_token)
     week_list = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
     year = localtime().tm_year
@@ -168,8 +151,8 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, te
                 "value": "{} {}".format(today, week),
                 "color": get_color()
             },
-            "region": {
-                "value": region_name,
+            "liu_region": {
+                "value": liu_region_name,
                 "color": get_color()
             },
             "weather": {
@@ -251,7 +234,7 @@ if __name__ == "__main__":
     # 接收的用户
     users = config["user"]
     # 传入地区获取天气信息
-    region = config["region"]
+    liu_region = config["liu_region"]
     weather, temp, wind_dir, tempMax, tempMin = get_weather(region)
     note_ch = config["note_ch"]
     note_en = config["note_en"]
@@ -260,5 +243,5 @@ if __name__ == "__main__":
         note_ch, note_en = get_ciba()
     # 公众号推送消息
     for user in users:
-        send_message(user, accessToken, region, weather, temp, wind_dir, tempMax, tempMin, note_ch, note_en)
+        send_message(user, accessToken, liu_region, weather, temp, wind_dir, tempMax, tempMin, note_ch, note_en)
     os.system("pause")
