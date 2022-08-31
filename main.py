@@ -31,7 +31,7 @@ def get_access_token():
     return access_token
  
  
-def get_weather(liu_region):
+def get_weather(region):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
@@ -235,7 +235,7 @@ if __name__ == "__main__":
     users = config["user"]
     # 传入地区获取天气信息
     liu_region = config["liu_region"]
-    weather, temp, wind_dir, tempMax, tempMin = get_weather(region)
+    weather, temp, wind_dir, tempMax, tempMin = get_weather(liu_region)
     note_ch = config["note_ch"]
     note_en = config["note_en"]
     if note_ch == "" and note_en == "":
