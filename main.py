@@ -235,9 +235,9 @@ if __name__ == "__main__":
     users = config["user"]
     # 传入地区获取天气信息
     liu_region = config["liu_region"]
-    # feng_region = config["feng_region"]
+    feng_region = config["feng_region"]
     liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin = get_weather(liu_region)
-    # feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin = get_weather(feng_region)
+    feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin = get_weather(feng_region)
     note_ch = config["note_ch"]
     note_en = config["note_en"]
     if note_ch == "" and note_en == "":
