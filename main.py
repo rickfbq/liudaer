@@ -121,7 +121,7 @@ def get_ciba():
     return note_ch, note_en
  
  
-def send_message(to_user, access_token, liu_region, liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin, note_ch, note_en):
+def send_message(to_user, access_token, liu_region, liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin, feng_region, feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin, note_ch, note_en):
     url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}".format(access_token)
     week_list = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
     year = localtime().tm_year
@@ -173,6 +173,30 @@ def send_message(to_user, access_token, liu_region, liu_weather, liu_temp, liu_w
             },
             "liu_tempMin": {
                 "value": liu_tempMin,
+                "color": get_color()
+            },
+            "feng_region": {
+                "value": feng_region,
+                "color": get_color()
+            },
+            "feng_weather": {
+                "value": feng_weather,
+                "color": get_color()
+            },
+            "feng_temp": {
+                "value": feng_temp,
+                "color": get_color()
+            },
+            "feng_wind_dir": {
+                "value": feng_wind_dir,
+                "color": get_color()
+            },
+            "feng_tempMax": {
+                "value": feng_tempMax,
+                "color": get_color()
+            },
+            "feng_tempMin": {
+                "value": feng_tempMin,
                 "color": get_color()
             },
             "love_day": {
@@ -245,5 +269,5 @@ if __name__ == "__main__":
         note_ch, note_en = get_ciba()
     # 公众号推送消息
     for user in users:
-        send_message(user, accessToken, liu_region, liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin, note_ch, note_en)
+        send_message(user, accessToken, liu_region, liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin, feng_region, feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin, note_ch, note_en)
     os.system("pause")
