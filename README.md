@@ -16,14 +16,15 @@ https://www.coolapk.com/feed/38579891?shareKey=NGI3ZGZlZTM4MDBjNjMwMzdlM2M~&shar
 
 现在是{{date.DATA}} 
 
-在{{region.DATA}}的好大儿👶要留意今天的天气哦~ 
+在{{liu_region.DATA}}的好大儿👶要留意今天的天气哦~ 
 
-天气：{{weather.DATA}} 
-当前气温：{{temp.DATA}} 
-🔥最高气温：{{tempMax.DATA}} 
-❄最低气温：{{tempMin.DATA}} 
-🌬风向：{{wind_dir.DATA}} 
+天气：{{liu_weather.DATA}} 
+当前气温：{{liu_temp.DATA}} 
+🔥最高气温：{{liu_tempMax.DATA}} 
+❄最低气温：{{liu_tempMin.DATA}} 
+🌬风向：{{liu_wind_dir.DATA}} 
 
+在{{feng_region.DATA}}的好大爹🧑也瞅瞅今天的天气哦~ 
 今天是我们❤恋爱❤的第{{love_day.DATA}}天 
 {{birthday1.DATA}} 
 {{birthday2.DATA}}
