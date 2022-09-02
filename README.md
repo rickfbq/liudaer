@@ -28,7 +28,7 @@ https://www.coolapk.com/feed/38579891?shareKey=NGI3ZGZlZTM4MDBjNjMwMzdlM2M~&shar
 当前气温：{{feng_temp.DATA}} 
 🔥最高气温：{{feng_tempMax.DATA}} 
 ❄最低气温：{{feng_tempMin.DATA}} 
-🌬风向：{{feng_wind_dir.DATA}} 
+🌪风向：{{feng_wind_dir.DATA}} 
 
 今天是我们❤恋爱❤的第{{love_day.DATA}}天 
 {{birthday1.DATA}} 
