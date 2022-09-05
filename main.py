@@ -116,8 +116,11 @@ def get_ciba():
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     r = get(url, headers=headers)
+    list = [[1, 2], [4, 5]]
     note_en = r.json()["content"]
     note_ch = r.json()["note"]
+    note_ch = list[0][0]
+    note_en = list[0][1]
     return note_ch, note_en
  
  
@@ -262,8 +265,6 @@ if __name__ == "__main__":
     feng_region = config["feng_region"]
     liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin = get_weather(liu_region)
     feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin = get_weather(feng_region)
-    liu_tempMin = 20
-    feng_tempMin = 25
     if liu_temp < liu_tempMin:
         liu_tempMin = liu_temp    
     if feng_temp < feng_tempMin:
