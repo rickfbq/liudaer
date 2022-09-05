@@ -7,7 +7,7 @@
 # 模板消息id
 "template_id": "7c7gxtOyNSK3wzDq58XhIa3C1vsCRehpTbfBZDgQuRc",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["o5dV-54KaNaXImrSTM7_3hVeXm_c"],
+"user": ["o5dV-54KaNaXImrSTM7_3hVeXm_c","o5dV-51CPONuTmGn6wcJJ0mSWmYk"],
  
 # 信息配置
 # 和风天气apikey
@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "人是一个初生的孩子，他的力量，就是生长的力量。",
+"note_ch": "生命从世界得到资产，爱情使它得到价值。",
 # 金句英文
-"note_en": "Man is a born child, his power is the power of growth."
+"note_en": "Life finds its wealth by the claims of the world,and its worth by the claims of love."
 }
