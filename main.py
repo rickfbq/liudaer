@@ -262,13 +262,13 @@ if __name__ == "__main__":
     feng_region = config["feng_region"]
     liu_weather, liu_temp, liu_wind_dir, liu_tempMax, liu_tempMin = get_weather(liu_region)
     feng_weather, feng_temp, feng_wind_dir, feng_tempMax, feng_tempMin = get_weather(feng_region)
-    liu_tempMin = 1
-    feng_tempMin = 1
-    if liu_temp < liu_tempMin
-      liu_tempMin = liu_temp
+    liu_temp = 1
+    feng_temp = 1
+    if liu_temp < liu_tempMin:
+        liu_tempMin = liu_temp
     
-    if feng_temp < feng_tempMin
-      feng_tempMin = feng_temp
+    if feng_temp < feng_tempMin:
+        feng_tempMin = feng_temp
     
     note_ch = config["note_ch"]
     note_en = config["note_en"]
