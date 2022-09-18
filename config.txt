@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "当我们是大为谦卑的时候，便是我们最接近伟大的时候。",
+"note_ch": "无垠的沙漠热烈追求一叶绿草的爱，她摇摇头笑着飞开了。",
 # 金句英文
-"note_en": "We come nearest to the great when we are great in humility."
+"note_en": "The mighty desert is burning for the love of a blade of grass who shakes her head and laughs and flies away."
 }
