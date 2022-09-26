@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "人是一个初生的孩子，他的力量，就是生长的力量。",
+"note_ch": "休息与工作的关系，正如眼睑与眼睛的关系。",
 # 金句英文
-"note_en": "Man is a born child, his power is the power of growth."
+"note_en": "Rest belongs to the work as the eyelids to the eyes."
 }
