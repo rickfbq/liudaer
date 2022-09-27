@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "休息与工作的关系，正如眼睑与眼睛的关系。",
+"note_ch": "我的存在，对我是一个永久的神奇，这就是生活。　",
 # 金句英文
-"note_en": "Rest belongs to the work as the eyelids to the eyes."
+"note_en": "That I exist is a perpetual surprise which is life."
 }
