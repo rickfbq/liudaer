@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "我今晨坐在窗前，世界如一个路人似的，停留了一会， 向我点点头又走过去了。",
+"note_ch": "静静地听，我的心呀，听那世界的低语，这是它对你求爱的表示呀。",
 # 金句英文
-"note_en": "I sit at my window this morning where the world like a passer-by stops for a moment, nods to me and goes."
+"note_en": "Listen, my heart,to the whispers of the world with which it makes love to you."
 }
