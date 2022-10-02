@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "“海水呀，你说的是什么？”　“是永恒的疑问。”“天空呀，你回答的是什么？”“是永恒的沉默。”",
+"note_ch": "有一次，我们梦见彼此竟是陌生人。醒来时，才发现我们本是亲密无间。",
 # 金句英文
-"note_en": "“ What language is thine, O sea? “　　“The language of eternal question.“　　“What language is thy answer, O sky?“　　“The language of eternal silence.“"
+"note_en": "Once we dreamt that we were strangers.We wake up to find that we were dear to each other."
 }
