@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "世界对着它的爱人，把它浩翰的面具揭下了。它变小了，小如一首歌，小如一回永恒的接吻。",
+"note_ch": "这寡独的黄昏，幕着雾与雨，我在我的心的孤寂里，感觉 到它的叹息。",
 # 金句英文
-"note_en": "The world puts off its mask of vastness to its lover.It becomes small as one song, as one kiss of the eternal."
+"note_en": "In my solitude of heart I feel the sigh, of this widowed evening veiled with mist and rain."
 }
