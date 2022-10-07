@@ -24,5 +24,5 @@
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
 "note_ch": "这寡独的黄昏，幕着雾与雨，我在我的心的孤寂里，感觉 到它的叹息。",
 # 金句英文
-"note_en": "In my solitude of heart I feel the sigh, of this widowed evening veiled with mist and rain."
+"note_en": "In my solitude of heart I feel the sigh of this widowed evening veiled with mist and rain."
 }
