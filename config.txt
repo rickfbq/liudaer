@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "你微微地笑着，不同我说什么话。而我觉得，为了这个，我已等待得久了。",
+"note_ch": "森林踮着脚尖抬着头向上探看， 好像是大地对上天的思念。",
 # 金句英文
-"note_en": "You smiled and talked to me of nothing and I felt that for this I had been waiting long."
+"note_en": "The trees, like the longings of the earth, stand a tiptoe to peep at the heaven."
 }
