@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "我将心房浸入此刻的时间之海，它盛了满满的爱。",
+"note_ch": "请别把我放在错的地方，让错的我来对抗对的我",
 # 金句英文
-"note_en": "I have dipped the vessel of my heart into this silent hour;it has filled with love."
+"note_en": "Let me not put myself wrongly to my world and set it against me."
 }
