@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "那些把灯背在背上的人，把他们的影子投到了自己前面。",
+"note_ch": "不要因为峭壁是高的，便让你的爱情坐在峭壁上。",
 # 金句英文
-"note_en": "They throw their shadows before them who carry their lantern on their back."
+"note_en": "Do not seat your love upon a precipice because it is high."
 }
