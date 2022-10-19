@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "在我的心头燃点起那休憩的黄昏星吧，然后让黑夜向我微语着爱情。",
+"note_ch": "使生如夏花之绚烂，死如秋叶之静美。",
 # 金句英文
-"note_en": "Light in my heart the evening star of rest and then let the night whisper to me of love."
+"note_en": "Let life be beautiful like summer flowers and death like autumn leaves."
 }
