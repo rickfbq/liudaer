@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "我们把世界看错了，反说它欺骗我们。",
+"note_ch": "错误经不起失败，但是真理却不怕失败。",
 # 金句英文
-"note_en": "We read the world wrong and say that it deceives us."
+"note_en": "Wrong cannot afford defeat but Right can."
 }
