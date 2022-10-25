@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "我不能选择那最好的，是那最好的选择我。",
+"note_ch": "死亡隶属于生命，正与生一样。举足是走路，正如落足也是走路。",
 # 金句英文
-"note_en": "I cannot choose the best.The best chooses me."
+"note_en": "Death belongs to life as birth does.The walk is in the raising of the foot as in the laying of it down."
 }
