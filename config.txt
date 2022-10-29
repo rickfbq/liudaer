@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "总有一天，我要在别的世界的晨光里对你唱道：“我以前在地球的光里，在人的爱里，已经见过你了。”",
+"note_ch": "世界以痛吻我，要我报之以歌。",
 # 金句英文
-"note_en": "Some day I shall sing to thee in the sunrise of some other world,I have seen thee before in the light of the earth,in the love of man."
+"note_en": "The world has kissed my soul with its pain,asking for its return in songs."
 }
