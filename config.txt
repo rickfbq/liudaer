@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "忧思在我的心里平静下去，正如暮色降临在寂静的山林中。",
+"note_ch": "昨夜的风雨给今日的早晨戴上了金色的和平。",
 # 金句英文
-"note_en": "Sorrow is hushed into peace in my heart like the evening among the silent trees."
+"note_en": "The storm of the last night has crowned this morning with golden peace."
 }
