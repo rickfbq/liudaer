@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "你看不见你自己，你所看见的只是你的影子。",
+"note_ch": "生命从世界得到资产，爱情使它得到价值。",
 # 金句英文
-"note_en": "What you are you do not see,what you see is your shadow."
+"note_en": "Life finds its wealth by the claims of the world,and its worth by the claims of love."
 }
