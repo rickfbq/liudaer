@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "如果你因失去了太阳而流泪，那么你也将失去群星了。",
+"note_ch": "最好的东西不是独来的，它伴了所有的东西同来。",
 # 金句英文
-"note_en": "If you shed tears when you miss the sun,you also miss the stars."
+"note_en": "The best does not come alone,It comes with the company of the all."
 }
