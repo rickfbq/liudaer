@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "最好的东西不是独来的，它伴了所有的东西同来。",
+"note_ch": "世界对着它的爱人，扯下它那庞大的面具。它变小了，小得宛如一首歌，小得宛如一个永恒的吻。",
 # 金句英文
-"note_en": "The best does not come alone,It comes with the company of the all."
+"note_en": "The world puts off its mask of vastness to its lover. It becomes small as one song, as one kiss of the eternal."
 }
