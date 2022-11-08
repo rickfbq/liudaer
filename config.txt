@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "如果你因错过太阳而哭泣，那么你也将错过群星了。",
+"note_ch": "你看不见自己，你见到的只是自己的影子。",
 # 金句英文
-"note_en": "If you shed tears when you miss the sun, you also miss the stars."
+"note_en": "What you are you do not see, what you see is your shadow."
 }
