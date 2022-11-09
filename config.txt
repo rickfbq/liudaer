@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "你看不见自己，你见到的只是自己的影子。",
+"note_ch": "群星毫不畏惧自己会看似萤火虫。",
 # 金句英文
-"note_en": "What you are you do not see, what you see is your shadow."
+"note_en": "The stars are not afraid to appear like fireflies."
 }
