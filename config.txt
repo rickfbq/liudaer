@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "那些背着灯的人，他们的影子投到了前面。",
+"note_ch": "玻璃灯责备瓦灯叫他表兄。但月亮出来时，玻璃灯却温柔一笑，叫月亮：“我亲爱的，亲爱的姐姐。”",
 # 金句英文
-"note_en": "They throw their shadows before them who carry their lantern on their back."
+"note_en": "While the glass lamp rebukes the earthen for calling it cousin, the moon rises, and the glass lamp, with a bland smile, calls her, “My dear, dear sister.”"
 }
