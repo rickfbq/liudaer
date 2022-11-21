@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "麻雀看见孔雀负担着它的翎尾，替它担忧。",
+"note_ch": "决不要害怕“刹那”——永恒之声如此歌唱着。",
 # 金句英文
-"note_en": "The sparrow is sorry for the peacock at the burden of its tail."
+"note_en": "Never be afraid of the moments—thus sings the voice of the everlasting."
 }
