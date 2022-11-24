@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "“完美”为了对“不完美”示爱，把自己装扮得美丽至极。",
+"note_ch": "神对人类说：“我治愈你，所以才伤害你；我爱你，所以才惩罚你。”",
 # 金句英文
-"note_en": "The perfect decks itself in beauty for the love of the imperfect."
+"note_en": "God says to man, I heal you therefore I hurt, love you therefore punish."
 }
