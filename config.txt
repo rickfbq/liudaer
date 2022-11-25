@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "神对人类说：“我治愈你，所以才伤害你；我爱你，所以才惩罚你。”",
+"note_ch": "感谢火焰的光明，但是别忘了执灯人，他正坚忍地站在黑暗之中。",
 # 金句英文
-"note_en": "God says to man, I heal you therefore I hurt, love you therefore punish."
+"note_en": "Thank the flame for its light, but do not forget the lampholder standing in the shade with constancy of patience."
 }
