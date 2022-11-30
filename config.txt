@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "贞节是一笔财富，在肥沃的爱情里滋长。",
+"note_ch": "我们看错了世界，反而说它欺骗了我们。",
 # 金句英文
-"note_en": "Chastity is a wealth that comes from abundance of love."
+"note_en": "We read the world wrong and say that it deceives us."
 }
