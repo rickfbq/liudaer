@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "人时常对自己筑起堤防。",
+"note_ch": "让我们生时犹如夏花一般辉煌绚烂，死时犹如秋叶一般宁和静美。",
 # 金句英文
-"note_en": "Man barricades against himself."
+"note_en": "Let life be beautiful like summer flowers and death like autumn leaves."
 }
