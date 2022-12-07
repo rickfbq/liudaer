@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "这渴望是在黑夜里感觉到的，白天却消失不见。",
+"note_ch": "露珠对湖水说道：“你是荷叶下的大露珠，我是荷叶上的小露珠。”",
 # 金句英文
-"note_en": "This longing is for the one who is felt in the dark, but not seen in the day."
+"note_en": "“You are the big drop of dew under the lotus leaf, I am the smaller one on its upper side.”said the dewdrop to the lake."
 }
