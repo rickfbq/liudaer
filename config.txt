@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "权力对世界说：“你是我的。” 世界便把权力囚禁在自己的宝座下。爱情对世界说：“我是你的。”世界便让爱情在自己的屋子里自由出入。",
+"note_ch": "白云谦逊地站在天之一隅。晨光冠之以辉煌。",
 # 金句英文
-"note_en": "Power said to the world, “You are mine.” The world kept it prisoner on her throne.Love said to the world, “I am thine.”The world gave it the freedom of her house."
+"note_en": "The cloud stood humbly in a corner of the sky.The morning crowned it with splendour."
 }
