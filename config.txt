@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "泥土饱受侮辱，却以花朵作为回报。",
+"note_ch": "不要把你口袋里的功绩借给你的朋友，这是在侮辱他。",
 # 金句英文
-"note_en": "The dust receives insult and in return offers her flowers."
+"note_en": "Do not insult your friend by lending him merits from your own pocket."
 }
