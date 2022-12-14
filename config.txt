@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "当事业有成者自吹得到了神的特别恩宠时，神却感到羞耻。",
+"note_ch": "人们走入喧哗的人群中，想要淹没自己沉默的呼声。",
 # 金句英文
-"note_en": "God is ashamed when the prosperous boasts of his special favour."
+"note_en": "Man goes into the noisy crowed to drown his own clamour of silence."
 }
