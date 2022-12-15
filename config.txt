@@ -22,7 +22,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-04-13",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "人们走入喧哗的人群中，想要淹没自己沉默的呼声。",
+"note_ch": "耗尽所有的终结的是“死亡”，而完美的终结是“圆满”。",
 # 金句英文
-"note_en": "Man goes into the noisy crowed to drown his own clamour of silence."
+"note_en": "That which ends in exhaustion is death, but the perfect ending is in the endless."
 }
